@@ -10,7 +10,7 @@ const Layout = () => {
 
       <Navbar color="dark" dark expand="md">
         <Navbar.Brand href="/">TestSite</Navbar.Brand>
-        <Nav.Link to="/" className="text-muted" >Movies</Nav.Link>
+        <Link to="/movies" className="text-muted" >Movies</Link>
         <Nav.Link className="text-muted">Series</Nav.Link>
         <Navbar.Toggle />
         <Navbar.Collapse navbar>
